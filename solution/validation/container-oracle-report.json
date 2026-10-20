@@ -1,0 +1,29 @@
+{
+  "score": 1.0,
+  "checks": [
+    {
+      "name": "temperature_dependent_reversible_kinetics",
+      "weight": 0.3,
+      "passed": true,
+      "detail": "passed"
+    },
+    {
+      "name": "coupled_heat_balance",
+      "weight": 0.3,
+      "passed": true,
+      "detail": "passed"
+    },
+    {
+      "name": "all_steady_states",
+      "weight": 0.2,
+      "passed": true,
+      "detail": "passed"
+    },
+    {
+      "name": "local_stability",
+      "weight": 0.2,
+      "passed": true,
+      "detail": "passed"
+    }
+  ]
+}

@@ -1,0 +1,29 @@
+{
+  "score": 0.0,
+  "checks": [
+    {
+      "name": "temperature_dependent_reversible_kinetics",
+      "weight": 0.3,
+      "passed": false,
+      "detail": "AssertionError: process failed with code 2: /Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/a1-6/Documents/Codex/2026-10-20/yan-z/outputs/reversible-cstr-steady-state/environment/does-not-exist.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "name": "coupled_heat_balance",
+      "weight": 0.3,
+      "passed": false,
+      "detail": "AssertionError: process failed with code 2: /Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/a1-6/Documents/Codex/2026-10-20/yan-z/outputs/reversible-cstr-steady-state/environment/does-not-exist.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "name": "all_steady_states",
+      "weight": 0.2,
+      "passed": false,
+      "detail": "AssertionError: process failed with code 2: /Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/a1-6/Documents/Codex/2026-10-20/yan-z/outputs/reversible-cstr-steady-state/environment/does-not-exist.py': [Errno 2] No such file or directory\n"
+    },
+    {
+      "name": "local_stability",
+      "weight": 0.2,
+      "passed": false,
+      "detail": "AssertionError: process failed with code 2: /Library/Developer/CommandLineTools/usr/bin/python3: can't open file '/Users/a1-6/Documents/Codex/2026-10-20/yan-z/outputs/reversible-cstr-steady-state/environment/does-not-exist.py': [Errno 2] No such file or directory\n"
+    }
+  ]
+}

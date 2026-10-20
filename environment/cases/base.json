@@ -1,0 +1,26 @@
+{
+  "case_id": "base-isomerization",
+  "reaction": {
+    "forward_pre_exponential_s^-1": 22000000000000.0,
+    "forward_activation_energy_kj_kmol": 100000.0,
+    "equilibrium_constant_at_reference": 8.3,
+    "reference_temperature_k": 350.0,
+    "standard_enthalpy_kj_kmol": -90000.0
+  },
+  "reactor": {
+    "volume_m3": 1.0,
+    "feed_volumetric_flow_m3_s": 0.00909090909090909,
+    "feed_a_kmol_m3": 2.35,
+    "feed_b_kmol_m3": 0.0,
+    "feed_temperature_k": 303.3,
+    "utility_temperature_k": 299.0,
+    "overall_heat_transfer_kw_k": 0.58,
+    "volumetric_heat_capacity_kj_m3_k": 1300.0
+  },
+  "point_check_temperatures_k": [300.0, 325.0, 350.0, 375.0],
+  "temperature_scan_k": {
+    "minimum_k": 275.0,
+    "maximum_k": 425.0,
+    "points": 4001
+  }
+}

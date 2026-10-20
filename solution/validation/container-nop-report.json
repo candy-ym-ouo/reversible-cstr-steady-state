@@ -1,0 +1,29 @@
+{
+  "score": 0.0,
+  "checks": [
+    {
+      "name": "temperature_dependent_reversible_kinetics",
+      "weight": 0.3,
+      "passed": false,
+      "detail": "AssertionError: actual=1.3410466520887475e-05, expected=9.831857401360924e-08"
+    },
+    {
+      "name": "coupled_heat_balance",
+      "weight": 0.3,
+      "passed": false,
+      "detail": "AssertionError: actual=-24.0, expected=80.0"
+    },
+    {
+      "name": "all_steady_states",
+      "weight": 0.2,
+      "passed": false,
+      "detail": "AssertionError: expected 3 steady states, got 1"
+    },
+    {
+      "name": "local_stability",
+      "weight": 0.2,
+      "passed": false,
+      "detail": "AssertionError: steady-state count does not permit stability comparison"
+    }
+  ]
+}

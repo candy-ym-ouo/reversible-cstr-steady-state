@@ -1,0 +1,8 @@
+Updated [reactor_report.py](/Users/a1-6/Documents/Codex/2026-10-20/yan-z/work/reversible-cstr-model-candidate2/environment/reactor_report.py) with:
+
+- Temperature-dependent equilibrium constants and corrected reversible material balance.
+- Correct utility-temperature heat removal and feed sensible heat.
+- Interval-based steady-state isolation with root refinement and duplicate suppression.
+- Two-state Jacobian stability analysis for the uncontrolled reactor.
+
+Ran `python3 reactor_report.py --case cases/base.json`. It reports three steady states at approximately `306.385 K`, `321.187 K`, and `376.681 K`, with stability flags `[true, false, true]` and `multiple_steady_states: true`. Syntax and steady-state residual checks also pass.

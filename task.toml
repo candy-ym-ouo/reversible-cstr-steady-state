@@ -1,0 +1,28 @@
+schema_version = "1.3"
+
+[task]
+name = "local/reversible-cstr-steady-state"
+version = "1.0.0"
+description = "分析放热可逆反应连续搅拌釜的定温状态、稳态和局部稳定性。"
+authors = [{ name = "yan-z" }]
+keywords = ["CSTR", "reaction kinetics", "multiple steady states", "stability", "scientific computing"]
+
+[agent]
+timeout_sec = 3600
+
+[environment]
+build_timeout_sec = 900
+cpus = 1
+memory_mb = 2048
+storage_mb = 4096
+gpus = 0
+allow_internet = true
+
+[verifier]
+timeout_sec = 300
+
+[metadata]
+difficulty = "expert"
+category = "化学工程与反应器分析"
+tags = ["CSTR", "反应动力学", "多重稳态", "局部稳定性", "数值计算"]
+expert_time_estimate = "5h"
